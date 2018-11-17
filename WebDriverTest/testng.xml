@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="2" name="Test">
+  <parameter name="testDriver" value="firefox"></parameter>
+    <classes>
+      <!-- <class name="com.test.hackerRank.POM_HR_Test"/> -->
+      <class name="com.test.guru99.bankingProject.guru99BankTest"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
